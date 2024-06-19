@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TodoList</h1>
+    <input type="text" id="input">
+    <button id="btn" onclick="add()">Add</button>
+    <h4 id="result"></h4>
+</body>
+
+<script>
+   let btn=document.getElementById("btn")
+   let input=document.getElementById("input")
+   let result=document.getElementById("result")
+    function add(){
+      result.innerHTML=input.value +"<button onclick='Delete()'>Delete</button>"
+    }
+    function Delete(){
+        result.remove()
+    }
+   
+</script>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" onkeyup="check(event)" >
+    <div>
+        <h1>one</h1>
+        <h1>two</h1>
+        <h1>three</h1>
+        <h1>four</h1>
+        <h1>five</h1>
+    </div>
+   
+<script>
+    let Enteredtext=""
+    let div=document.querySelector("div")
+    let elements=div.querySelectorAll("h1")
+
+
+function check(event){
+    Enteredtext=event.target.value
+for(i=0;i<elements.length;i++)
+    if(elements[i].textContent.indexOf(Enteredtext)<0){
+        elements[i].style.display="none"
+    }
+    else{
+        elements[i].style.display="block"
+    }
+
+}
+
+</script>
+
+</body>
+</html>

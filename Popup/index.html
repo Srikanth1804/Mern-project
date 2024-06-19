@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movienotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <h1>Write your thoughts</h1>
+    </div>
+    <div class="container">
+        
+        <div class="data-container">
+            <h2>Vijay</h2>
+            <h5>Master</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio totam natus odio quisquam voluptatibus ducimus corrupti vel cumque dicta ut animi placeat quo mollitia, earum eos sequi unde quod sit.</p>
+            <button id="delete-btn" onclick="deleteitem(event)">Delete</button>
+        </div>
+        
+    </div>
+    <div class="cover"></div>
+    <div>
+        <form action="" id="form">
+            <div>
+            <input type="text" placeholder="Favourite Actor" id="actorname" autocomplete="off">
+            <input type="text" placeholder="Favourite Movie" id="moviename" autocomplete="off">
+            </div>
+            <div>
+                <textarea name="comments" id="comments" placeholder="Few words for movie!"></textarea>
+                </div>
+                <div>
+                <button id="add-content">Add</button>
+                <button id="close-content">Close</button>
+            </div>   
+        </form>
+    </div>
+    <div>
+        <button id="add-btn">+</button>
+    </div>
+    
+   
+</body>
+<script src="script.js"></script>
+</html>

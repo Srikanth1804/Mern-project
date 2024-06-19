@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.navbar-links{
+    display: flex;
+    column-gap: 30px;
+}
+.navbar-links a{
+    text-decoration: none;
+   color:black;
+}
+.navbar-links a:hover{
+    text-decoration: underline;
+   color:black;
+}
+.navbar-toggle-bar{
+    display: none;
+}
+.slide-bar{
+    background-color:black;
+    color: white;
+    width: 30%;
+    height: 100%;
+    position:fixed;
+    top: 0px;
+    left: -50%;  
+    padding: 20px; 
+    transition: 2s;
+    
+}
+.slidebar-links p{
+    margin-bottom: 30px;
+}
+.slidebar-links a{
+    text-decoration: none;
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+.header-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.service{
+    padding: 20px;
+}
+.service-data-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.service-data-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+}
+.service-data-2 div{
+    background-color: powderblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.new-arrival-container{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.new-arrival-container div{
+flex-basis: 20%;
+position: relative;
+margin-top: 10px;
+}
+.new-arrival-container button{
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: white;
+   color: black;
+  border: none;
+  margin-top: 10px;
+  position: absolute;
+  top: 40%; 
+  left: 30%;
+  border-radius: 5px;
+    }
+    .news{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .news input{
+        padding: 10px;
+        width: 900px;
+        border: 3px solid black;
+    }
+    .news button{
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        padding: 40px;
+    }
+    .product-section{
+        margin-top: 20px;
+    }
+    .product-search{
+        width: 80%;
+        border:2px solid black;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .product-search input{
+        background-color: transparent;
+        width: 100%;
+        border: none;
+    }
+    .product-search input:focus{
+      outline: none;
+    }
+    .products{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 10px;
+    }
+    .product-items{
+        text-align: center;
+        flex-basis: 20%;
+    }
+    .product-items img{
+        border-radius: 10px;
+    }
+/* Media Query */
+@media screen and (max-width:700px) {
+    .navbar-toggle-bar{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .service-data-1{
+        display: none;
+    }
+    .service-data-2{
+        flex-direction: column;
+    }
+}
