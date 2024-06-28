@@ -1,0 +1,123 @@
+/* Navbar section */
+
+#navbar2-btn{
+    min-width:100px;
+    background-color:rgb(26, 5, 46);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+/* Bodysection */
+#alert{
+    background-color:rgb(26, 5, 46);
+    color: white; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    width: 370px;
+    font-size:small;
+}
+#e-mail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+#btn2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    background-color:rgb(26, 5, 46);
+    color: white; 
+    border: none;
+    border-radius: 5px;
+}
+#img-2{
+    width: 300px;
+    margin-left: 150px;
+}
+
+
+/* Footersection */
+#footer-2 img{
+   padding: 10px;
+    
+}
+
+/* Media-Query */
+
+/* Navbar */
+
+@media screen and (max-width:1445px) {
+    #mynavbar2 ul{
+        margin-left: 55%;
+    }
+}
+@media screen and (max-width:1095px) {
+    #mynavbar2 ul{
+        margin-left: 45%;
+    }
+}
+@media screen and (max-width:965px) {
+    #mynavbar2 ul{
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:765px) {
+    #mynavbar2 ul{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:576px) {
+    #mynavbar2 ul{
+        margin-left:81%;
+    }
+}
+
+/* Bodysection */
+
+@media screen and (max-width:576px) {
+    #img-2{
+        display: none;
+    }
+    #alert{
+        font-size: large;
+    }
+}
+
+
+
+@media screen and (max-width:990px){
+    #btn2{
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 90px;
+        padding-right: 90px;
+        margin-left: 0px;
+    }
+}  
+@media screen and (max-width:576px){
+  #btn2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+  } 
+}     
+@media screen and (max-width:405px){
+    #btn2{
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 90px;
+        padding-right: 90px;
+        margin-left: 0px;
+    }
+    }

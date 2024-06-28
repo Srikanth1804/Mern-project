@@ -1,0 +1,85 @@
+
+/* Navbar section */
+
+#navbar1-btn{
+    min-width:100px;
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Headersection */
+#headerimg1{
+width: 60px;
+}
+#header-title{
+    margin-top: -60px;
+    margin-left: 100px;
+}
+
+/* Mainsection */
+
+#card-img{
+    width: 60px;
+}
+.card-txt{
+    margin-top: -60px;
+    margin-left: 80px;
+}
+
+/* Footersection */
+
+#navbar-foot{
+    min-width:350px;
+}
+
+
+/* Media-Query */
+
+/* Footersection */
+@media screen and (max-width:576px) {
+    #navbar-foot{
+        margin-left: 50%;
+        margin-top: -14%;
+        font-size: small;
+    }
+}
+/* Headersection */
+@media screen and (max-width:1445px) {
+    #headercontent{
+       margin-left: 50px;
+    }
+}
+@media screen and (max-width:767px) {
+    #headercontent{
+       margin-left: 0px;
+    }
+}
+@media screen and (max-width:576px) {
+    #headercontent{
+       margin-left: 0px;
+    }
+}
+
+/* Navbar */
+
+@media screen and (max-width:1445px) {
+    #mynavbar1 ul{
+        margin-left: 65%;
+    }
+}
+@media screen and (max-width:991px) {
+    #mynavbar1 ul{
+        margin-left: 50%;
+    }
+}
+@media screen and (max-width:766px) {
+    #mynavbar1 ul{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:576px) {
+    #mynavbar1 ul{
+        margin-left: 84%;
+    }
+}

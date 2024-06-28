@@ -1,0 +1,144 @@
+/* Navbar-section */
+
+#mynavbar ul{
+    margin-left: 65%;
+}
+#navbar-btn{
+    min-width:200px;
+}
+.navbar-brand{
+    font-weight: 900;
+}
+
+/* Body-section */
+
+#arrowbtn{
+    font-weight: 900;
+    margin-left: 15px;
+    color: green;
+}
+#body-img{
+ width: 400px;
+}
+
+
+
+/* Tagsection */
+
+
+   .card-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: -50px;
+   }
+   .card-p{
+    margin-top: -10px;
+   }
+.txt-flex{
+    display: flex;
+    justify-content: space-between;
+}
+  #container{
+    background-color: powderblue;
+    padding: 6%;
+  }
+
+  /* Footer-section */
+
+  #footer-card{
+    width: 400px;
+    border: 1px solid gold;
+    background-color: rgb(235, 235, 206);
+  }
+  #footer-btn{
+    padding-left: 20%;
+    padding-right: 20%;
+    border: none;
+  }
+  #footer{
+margin-left: 35%;
+padding-bottom: 5%;
+  }
+
+    /* Footer-bar */
+    #Footer{
+      background-color: powderblue;
+    }
+    #footerbar{
+      display: flex;
+      justify-content: space-between;
+    }
+   #footeritem{
+    display: flex;
+   }
+   #privacy{
+    padding-right: 50px;
+   }
+
+
+   /* Media-Query */
+
+  @media screen and (max-width:1100px) {
+    #footer{
+        margin-left: 30%;
+          }
+  }
+  
+  @media screen and (max-width:850px) {
+    #footer{
+        margin-left: 25%;
+          }
+  }
+  
+  @media screen and (max-width:750px) {
+    #footer{
+        margin-left: 20%;
+          }
+  }
+  
+  @media screen and (max-width:600px) {
+    #footer{
+        margin-left: 15%;
+          }
+  }
+  
+  @media screen and (max-width:550px) {
+    #footer{
+        margin-left: 10%;
+          }
+  }
+  
+  @media screen and (max-width:500px) {
+    #footer{
+        margin-left: 5%;
+          }
+  }
+  
+  @media screen and (max-width:450px) {
+    #footer{
+        margin-left: 0%;
+          }
+  }
+
+
+
+
+  @media screen and (max-width:1445px) {
+    #body-img{
+        margin-left:200px;
+          }
+  }
+  
+  @media screen and (max-width:576px) {
+    #body-img{
+        margin-left:0px;
+          }
+  }
+
+  /* Navbar */
+  @media screen and (max-width:576px) {
+    #mynavbar ul{
+      margin-left: 60%;
+  }
+  }
